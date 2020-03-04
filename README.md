@@ -9,6 +9,8 @@ Image Resizer is set to resize to 512x512 to ensure stable dimensionality for CN
 
 The 3D Mask Propagation file can be used to create mask annotations through statistical analysis of image pixels. Through specifying parameters, it can also be used to interpolate and produce intermediate slice annotations through a volume.
 
+A supplementary Otsu's Algorithm Analysis is also provided. This is not what we used for mask generation though.
+
 The generate_tf_records_new file is used to take the data produced by 3D Propagation and convert it into data readable by TensorFlow Object Detection API.
 
 Inspection of these Records can be done through the inspect_records file.
