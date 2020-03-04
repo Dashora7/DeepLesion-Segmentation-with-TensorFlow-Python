@@ -3,7 +3,7 @@ A repository for the analysis of CT Scan slices and lesion annotations. Through 
 
 This code is meant to be used with DeepLesion data and TensorFlow Object Detection API in Python.
 
-Train_test_split can be used to split the available CSV data into two data sets
+Train_test_split can be used to split the available CSV data into two data sets. To split the images, use image_split.
 
 Image Resizer is set to resize to 512x512 to ensure stable dimensionality for CNN flow.
 
