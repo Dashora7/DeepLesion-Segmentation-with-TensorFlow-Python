@@ -7,7 +7,7 @@ Train_test_split can be used to split the available CSV data into two data sets.
 
 Image Resizer is set to resize to 512x512 to ensure stable dimensionality for CNN flow.
 
-The 3D Mask Propagation file can be used to create mask annotations through statistical analysis of image pixels. Through specifying parameters, it can also be used to interpolate and produce intermediate slice annotations through a volume.
+The Mask Tester File can be used to create mask annotations through statistical analysis of image pixels. By using 3D Mask Propagation, we can also interpolate and produce intermediate slice annotations through a volume.
 
 A supplementary Otsu's Algorithm Analysis is also provided. This is not what we used for mask generation though.
 
