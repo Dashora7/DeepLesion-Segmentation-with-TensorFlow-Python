@@ -1,7 +1,7 @@
 # DeepLesion-Segmentation-with-TensorFlow-Python
 A repository for the analysis of CT Scan slices and lesion annotations. Through this code, lesion mask labels can be created and adjusted, TF Record data can be produced, and Mask Region-based Architectures can be utilized (Inception-Resnet V2 was used).
 
-This code is meant to be used with DeepLesion data and TensorFlow Object Detection API in Python.
+This code is meant to be used with DeepLesion data and TensorFlow Object Detection API in Python. Download the data with the download script and cite the DeepLesion research.
 
 Train_test_split can be used to split the available CSV data into two data sets. To split the images, use image_split.
 
