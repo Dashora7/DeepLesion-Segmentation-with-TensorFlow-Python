@@ -15,4 +15,4 @@ The generate_tf_records_new file is used to take the data produced by 3D Propaga
 
 Inspection of these Records can be done through the inspect_records file.
 
-After producing this data, it can be fed into TensorFlow ODAPI. We have supplied some basic files for the usage of ODAPI in the X folder.
+After producing this data, it can be fed into TensorFlow ODAPI. We have supplied some basic files for the usage of ODAPI in the TF running folder. Also, model hyperparameters are in pipeline.config
